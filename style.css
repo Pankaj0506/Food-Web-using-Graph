@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+}
+
+#mynetwork {
+  width: 50%;
+  height: 100%;
+  border: 1px solid slategray;
+  border-width: 5px;
+  border-left: 2.5px;
+}
+
+#container2 {
+  width: 50%;
+  height: 100%;
+  border: 5px solid slategray;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#mynetwork2 {
+  width: 100%;
+  height: 100%;
+  border: 1px solid slategray;
+  border-width: 5px;
+  border-left: 2.5px;
+}
+
+#container {
+  width: 100%;
+  height: 70%;
+  background-color: rgb(227, 228, 228);
+  display: flex;
+  margin: 0 auto;
+
+}
+
+#generate-graph {
+  margin: auto;
+  display: block;
+  box-shadow: 3px 3px 5px black;
+}
+
+#solve {
+  margin: auto;
+  display: block;
+  box-shadow: 3px 3px 5px black;
+}
+
+.intro {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 5px;
+  padding: 5px;
+}
+
+#main {
+  background-color: lightslategray;
+}
